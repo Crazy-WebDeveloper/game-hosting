@@ -1,0 +1,48 @@
+.font-small {
+    font-size: 0.8rem !important; }
+  
+   .header {
+    border-top-left-radius: .3rem !important; 
+    border-top-right-radius: .3rem !important; }
+  
+  input[type=text]:focus:not([readonly]) {
+    border-bottom: 1px solid #ff3547 !important;
+    -webkit-box-shadow: 0 1px 0 0 #ff3547 !important;
+    box-shadow: 0 1px 0 0 #ff3547 !important; }
+  
+  input[type=text]:focus:not([readonly]) + label {
+    color: #4f4f4f !important; }
+  
+  input[type=password]:focus:not([readonly]) {
+    border-bottom: 1px solid #ff3547;
+    -webkit-box-shadow: 0 1px 0 0 #ff3547;
+    box-shadow: 0 1px 0 0 #ff3547; }
+  
+  input[type=password]:focus:not([readonly]) + label {
+    color: #4f4f4f; }
+  .code-inp::placeholder {
+      text-align: center;
+  }
+  .code-inp {
+      text-align: center;
+  }
+  .login-sec {
+    float: right;
+    margin-top: 15px;
+    margin-right: 5px;
+  }
+  .view-section {
+    width: 100%;
+    height: 100%; 
+    padding: 3px;
+    position: relative;
+  }
+
+  @media screen and (min-width: 720px) {
+    .view-section {
+      position: relative;
+      width: 100%;
+      height: 100%; 
+      margin: 0 20%;
+    }
+  }
